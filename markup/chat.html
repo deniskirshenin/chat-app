@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+</head>
+<body class="page-container">
+    <header class="chat-header">
+        <a class="logo" href="./index.html">
+            <img src="./logo-no-background.png" alt="we are g chat." width="320" height="90">
+            <a class="sign-link" href="">Sign in</a>
+        </a>
+    </header>
+    <main class="chat-container">
+        <div class="message-wrapper">
+            <div class="chat-bubble">
+                <img class="chat-bubble__left" src="./avatar.png" alt="Avatar.">
+                <div class="chat-bubble__right">
+                    <p class="user-name">OG</p>
+                    <p class="user-message">hey Hustlas</p>
+                </div>
+            </div>
+        </div>
+        <form class="send-message">
+            <label hidden for="message-input">Enter message</label>
+            <input class="message-input" type="text" placeholder="Enter message..." id="message-input">
+            <button class="send-button" type="submit">G</button>
+        </form>
+    </main>
+    <footer class="index-footer">
+        <a class="terms-link" href="#">Terms & Privacy Policy</a>
+    </footer>
+</body>
+</html>
